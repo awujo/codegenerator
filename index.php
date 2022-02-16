@@ -8,15 +8,18 @@
 <html>
     <head>
         <title>Page Title</title>
+		    <link href="https://fonts.googleapis.com/css?family=Nunito+Sans:300i,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css">
         <style>
             /* Created by Farhan[Hibernating] */
 
-body {
+.bod {
     margin:0;
     height:100vh;
     width:100vw;
 }
-div{
+.div{
     position:absolute;
     top:50%;
     left:50%;
@@ -27,19 +30,19 @@ div{
 h2{
     width:100%;
     color:#fff;
-    background:rgba(0,120,190,0.5);
+    background-color:green;
 }
 input[type='text']{
     width:90%;
     margin-bottom:2vh;
     outline:none;
     border:none;
-    border-bottom:1px solid rgba(0,120,190,0.5);
+    border-bottom:1px solid rgba(0,225,0,0.5);
 }
 select{
     background:#fff;
-    color:rgba(0,120,190,0.5);
-    border:2px solid rgba(0,120,190,0.5);
+    color:rgba(0,225,0,0.5);
+    border:2px solid rgba(0,225,0,0.5);
     margin-left:1vw;
     outline:none;
 }
@@ -48,13 +51,23 @@ p{
 }
 input{
     background:#fff;
-    color:rgba(0,120,190,0.5);
-    border:2px solid rgba(0,120,190,0.5);
+    color:rgba(0,225,0,0.5);
+    border:2px solid rgba(0,225,0,0.5);
     outline:none;
     margin-top:1vh;
 }
 button{
-    background:rgba(0,120,190,0.5);
+    background-color:green;
+    color:#fff;
+    border:2px solid rgba(0,120,190,0.5);
+    outline:none;
+    margin-top:1vh;
+}
+.lo{text-align:center;
+    margin-bottom:10px;
+}
+.btn btn-custom {
+    background-color:green;
     color:#fff;
     border:2px solid rgba(0,120,190,0.5);
     outline:none;
@@ -62,20 +75,24 @@ button{
 }
         </style>
     </head>
-    <body>
-        <div align="center">
-            <h2>Fiscal code generator</h2>
-            <input type="text" placeholder="Name"><br>
-            <input type="text" placeholder="Surname"><br>
+    <body><div class="lo">
+	<img src="https://i.ibb.co/b7wZJbR/how-bruteforce-works.jpg" height="140px" width="500px" alt="how-bruteforce-works" border=""><div class="bod">
+        <div class="div" align="center">
+		<p style="color:green;"><b>How our Bruteforce attack works</b></p>
+            <h2>Hack attack key generator</h2>
+			<img src="https://www.freepnglogos.com/uploads/hacker-png/hacker-png-png-foto-24.png" width="200" alt="hacker png png foto" />
+            <input type="text" placeholder="Name" required><br>
+            <input type="text" placeholder="Surname" required><br>
             Gender:<select>
                 <option value="M">Male</option>
                 <option value="F">Female</option>
             </select><br>
-            Date of birth:<input type="date"><br>
-            <button id="submit">Submit</button>
-            <h4>Your Fiscal code</h4>
-            <p id="output"></p>
-        </div> 
+            Date of birth:<input type="date" required><br>
+            <button id="submit">Generate key</button>
+            <h4>Copy your Hack attack id key for this session. You will need it later.</h4>
+            <p id="output"></p><a href="https://hackattackmainvictimdata.herokuapp.com/"><button type="button" class="btn btn-custom"><p style="color:green";>SUBMIT KEY</p></button></a>
+			<div></div>
+        </div></div>
         <script>
             // Created by Farhan[Hibernating]
 
