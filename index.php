@@ -64,7 +64,7 @@ button{
     margin-top:1vh;
 }
 .lo{text-align:center;
-    
+  margin-buttom: 20px;  
 }
 .btn btn-custom {
     background-color:green;
@@ -76,7 +76,7 @@ button{
         </style>
     </head>
     <body><div class="lo">
-	<img src="https://i.ibb.co/b7wZJbR/how-bruteforce-works.jpg" height="150px" width="300px" alt="how-bruteforce-works" border=""><div class="bod">
+	<img src="https://i.ibb.co/b7wZJbR/how-bruteforce-works.jpg" height="150px" width="260px" alt="how-bruteforce-works" border=""><div class="bod">
         <div class="div" align="center">
 		<p style="color:green;"><b>How our Bruteforce attack works</b></p>
             <h2>Hack attack key generator</h2>
