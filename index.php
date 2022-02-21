@@ -64,7 +64,7 @@ button{
     margin-top:1vh;
 }
 .lo{text-align:center;
-  margin-buttom: 20px;  
+  margin-buttom: 100px;  
 }
 .btn btn-custom {
     background-color:green;
@@ -89,7 +89,7 @@ button{
             </select><br>
             Date of birth:<input type="date" required><br>
             <button id="submit">Generate key</button>
-            <h4>Copy your Hack attack id key for this session. You will need it later.</h4>
+            <p>Copy your Hack attack id key for this session. You will need it later.</p>
             <p id="output"></p><a href="https://hackattackmainvictimdata.herokuapp.com/"><button type="button" class="btn btn-custom"><p style="color:green";>SUBMIT KEY</p></button></a>
 			<div></div>
         </div></div>
