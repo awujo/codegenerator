@@ -64,7 +64,7 @@ button{
     margin-top:1vh;
 }
 .lo{text-align:center;
-  margin-buttom: 100px;  
+  margin-buttom: 500px;  
 }
 .btn btn-custom {
     background-color:green;
